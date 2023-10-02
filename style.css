@@ -1,0 +1,33 @@
+
+#Obj_Kvadrat {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    top: 20%;
+    left: 10%;
+    display: none;
+}
+
+#Obj_Treugol {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid blue;
+    top: 40%;
+    left: 30%;
+    display: none;
+}
+
+#Obj_Circle {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: green;
+    top: 60%;
+    left: 70%;
+    display: none;
+}
